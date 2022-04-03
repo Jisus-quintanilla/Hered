@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Car.clases
+{
+
+    internal class Aplanadora : Carro
+    {
+        
+
+        public Aplanadora(string _marca, int _modelo, string _color, int maxvel) : base(_marca, _modelo, _color, maxvel)
+        {
+        }
+
+        private int dirección = 0;
+
+        public string bajar()
+        {
+            dirección = 1;
+            return $"*\nBajando brazo idraulico, comienza a aplanar el camino*";
+
+        }
+
+        public string subir()
+        {
+            dirección = 0;
+            return $"*\nSubiendo brazo idraulico*";
+        }
+
+        public string Informacionmoto()
+        {
+            return $"La aplanadora de Jesus es marca {Marca}. \nEl modelo es {Modelo}. \nEl color es {Color}." +
+            $" \nTiene una velocidad maxima de {MAXVELOCIDAD} KPH  ";
+        }
+    }
+}
