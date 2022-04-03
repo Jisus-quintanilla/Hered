@@ -1,0 +1,240 @@
+
+using Car.clases;
+string mensaje;
+
+//Avioneta
+
+Avioneta avi = new Avioneta("D-ESBG", 2014, "Azul y blanco", 260);
+Console.WriteLine(avi.Informacionmoto());
+
+
+mensaje = avi.EncenderMotor();
+Console.WriteLine(mensaje);
+
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+Console.WriteLine(mensaje);
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+Console.WriteLine(mensaje);
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+Console.WriteLine(mensaje);
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+Console.WriteLine(mensaje);
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+mensaje = avi.acelerar();
+Console.WriteLine(mensaje);
+
+mensaje = avi.despegar();
+Console.WriteLine(mensaje);
+
+mensaje = avi.subir();
+Console.WriteLine(mensaje);
+
+mensaje = avi.InclinarDerecha();
+Console.WriteLine(mensaje);
+
+mensaje = avi.bajar();
+Console.WriteLine(mensaje);
+
+mensaje = avi.InclinarIzquirda();
+Console.WriteLine(mensaje);
+
+mensaje = avi.DesAcelerar();
+Console.WriteLine(mensaje);
+mensaje = avi.DesAcelerar();
+Console.WriteLine(mensaje);
+
+mensaje = avi.aterrizar();
+Console.WriteLine(mensaje);
+
+mensaje = avi.DesAcelerar();
+mensaje = avi.DesAcelerar();
+Console.WriteLine(mensaje);
+mensaje = avi.DesAcelerar();
+mensaje = avi.DesAcelerar();
+Console.WriteLine(mensaje);
+mensaje = avi.DesAcelerar();
+mensaje = avi.DesAcelerar();
+Console.WriteLine(mensaje);
+
+mensaje = avi.ApagarMotor();
+Console.WriteLine(mensaje);
+//------------------------------------------------------------------------------------------------------------------
+//Aplanadora
+
+Aplanadora apla = new Aplanadora("Lishide", 2016, "amarillo", 80);
+Console.WriteLine(apla.Informacionmoto());
+
+Console.WriteLine(apla.EncenderMotor());
+
+
+mensaje = apla.acelerar();
+Console.WriteLine(mensaje);
+mensaje = apla.acelerar();
+mensaje = apla.acelerar();
+Console.WriteLine(mensaje);
+mensaje = apla.acelerar();
+mensaje = apla.acelerar();
+Console.WriteLine(mensaje);
+
+mensaje = apla.bajar();
+Console.WriteLine(mensaje);
+
+mensaje = apla.DesAcelerar();
+Console.WriteLine(mensaje);
+
+mensaje = apla.acelerar();
+Console.WriteLine(mensaje);
+
+mensaje = apla.subir();
+Console.WriteLine(mensaje);
+
+mensaje = apla.DesAcelerar();
+Console.WriteLine(mensaje);
+
+mensaje = apla.ApagarMotor();
+Console.WriteLine(mensaje);
+
+//-------------------------------------------------------------------------------------------------------------
+//Motocicleta
+
+motocicleta moto = new motocicleta("Honda", 2021, "Negro", 190);
+Console.WriteLine(moto.Informacionmoto());
+
+
+
+Console.WriteLine(moto.EncenderMotor());
+
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+Console.WriteLine(mensaje);
+
+mensaje = moto.DesAcelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.DesAcelerar();
+mensaje = moto.DesAcelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.DesAcelerar();
+mensaje = moto.DesAcelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.DesAcelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.DesAcelerar();
+mensaje = moto.DesAcelerar();
+Console.WriteLine(mensaje);
+
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+Console.WriteLine(mensaje);
+mensaje = moto.acelerar();
+mensaje = moto.acelerar();
+Console.WriteLine(mensaje);
+
+mensaje = moto.chocar();
+Console.WriteLine(mensaje);
+
+mensaje = moto.despertar();
+Console.WriteLine(mensaje);
+
+//______________________________________________________________________________________
+//Carro
+
+
+Carro miCarro = new Carro("NISAN", 2022, "Negro", 120);
+Console.WriteLine(miCarro.Dameinformacion());
+
+
+Console.WriteLine(miCarro.EncenderMotor());
+
+mensaje = miCarro.acelerar();
+Console.WriteLine(mensaje);
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+Console.WriteLine(mensaje);
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+Console.WriteLine(mensaje);
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+Console.WriteLine(mensaje);
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+Console.WriteLine(mensaje);
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+Console.WriteLine(mensaje);
+mensaje = miCarro.acelerar();
+mensaje = miCarro.acelerar();
+Console.WriteLine(mensaje);
+
+mensaje = miCarro.DesAcelerar();
+Console.WriteLine(mensaje);
+mensaje = miCarro.DesAcelerar();
+Console.WriteLine(mensaje);
+mensaje = miCarro.DesAcelerar();
+mensaje = miCarro.DesAcelerar();
+Console.WriteLine(mensaje);
+mensaje = miCarro.DesAcelerar();
+Console.WriteLine(mensaje);
+
+mensaje = miCarro.Frenar();
+Console.WriteLine(mensaje);
+
+Console.WriteLine(miCarro.GetVelocidadActual());
+
+Console.WriteLine(miCarro.EncenderMotor());
+Console.WriteLine(miCarro.ApagarMotor());
+Console.WriteLine(miCarro.EncenderMotor());
+
+Console.WriteLine(miCarro.Bocina());
