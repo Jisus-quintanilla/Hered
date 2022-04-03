@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Car.clases
+{
+    internal class Avioneta : Carro
+    {
+        public Avioneta(string _marca, int _modelo, string _color, int maxvel) : base(_marca, _modelo, _color, maxvel)
+        {
+        }
+
+        int desplazar = 0;
+        public string despegar()
+        {
+            desplazar = 1;
+            return $"\n*Despegando* bbbbbbbssssss";
+
+        }
+
+        public string aterrizar()
+        {
+            desplazar = 0;
+            return $"\n*Aterrizando*";
+
+        }
+
+        public string InclinarDerecha()
+        {
+            return $"\n*Te inclinas hacia la derecha para moverte hacia la derecha*";
+        }
+
+        public string InclinarIzquirda()
+        {
+            return $"\n*Te inclinas hacia la izquierda para moverte hacia la izquierda*";
+        }
+
+        public string subir()
+        {
+            return $"\n*Subes de altitud*";
+        }
+
+        public string bajar()
+        {
+            return $"\n*bajas de altitud*";
+        }
+        public string Informacionmoto()
+        {
+            return $"La avioneta de Jesus es marca {Marca}. \nEl modelo es {Modelo}. \nEl color es {Color}." +
+            $" \nTiene una velocidad maxima de {MAXVELOCIDAD} KPH  ";
+        }
+    }
+}
