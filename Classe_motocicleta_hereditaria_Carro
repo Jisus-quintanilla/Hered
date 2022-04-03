@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Car.clases
+{
+    internal class motocicleta : Carro
+    {
+        
+        public motocicleta(string _marca, int _modelo, string _color, int maxvel) : base(_marca, _modelo, _color, maxvel)
+        {
+        }
+
+        public string chocar()
+        {
+            return $"cracs  !CUIDADOOOOOOOOOO!!   ¡CRASHSSSSSSSSsssss!!";
+        }
+
+        public string despertar()
+        {
+            return $"\n*Despiertas* mmhhh ahhh hay, Paco.... ¡PACO!. \n*responde Paco* ¿si? \n*Tu* Como quedo la moto?.." +
+                $"\n*Paco* Puess.... supongo que no se mira tan mal.\n*Tu* Que bueno.... y estas bien paco?\n"+
+                $"*Paco* Si, solo un raspon tengo nada grave.\n*Tu* Que bueno... Creo que deveriamos ir al hospital" +
+                $"por si acaso. \n*Paco* si. \n*Se levantan y se limpian un poco dirigiendose al hospital*";
+        }
+
+        public string Informacionmoto()
+        {
+            return $"La moto de Jesus es marca {Marca}. \nEl modelo es {Modelo}. \nEl color es {Color}." +
+            $" \nTiene una velocidad maxima de {MAXVELOCIDAD} KPH  ";
+        }
+    }
+}
